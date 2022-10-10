@@ -8,20 +8,34 @@ import Skills from './Curriculum/Skills'
 const Personal = () => {
     return (
 
-        <Router>
-            <div>
-                <Bar />
-            </div>
-            <Routes>
-                <Route path="/" exact element={<Profile />} />
-                <Route path="/about" element={< About />} />
-                <Route path="/skills" element={<Skills />} />
-                {/* <Route path=':bullmastiff'
-                            element={< Bullmastiff />} />
-                    </Route > */}
-                <Route path='*' element={<Default />} />
-            </Routes>
-        </Router>
+        <
+        Router >
+        <
+        div >
+        <
+        Bar / >
+        <
+        /div> <
+        Routes >
+        <
+        Route path = "/"
+        exact element = { < Profile / > }
+        /> <
+        Route path = "/about"
+        element = { < About / > }
+        /> <
+        Route path = "/skills"
+        element = { < Skills / > }
+        /> {
+            /* <Route path=':bullmastiff'
+                                        element={< Bullmastiff />} />
+                                </Route > */
+        } <
+        Route path = '*'
+        element = { < Default / > }
+        /> <
+        /Routes> <
+        /Router>
     )
 }
 
